@@ -45,20 +45,15 @@ The project requires several Python libraries and external services:
     cd image-search-query-generator
     ```
 
-2. **Install the Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Get API Keys**:
+2. **Get API Keys**:
     - **Zenserp API Key**: Sign up at [Zenserp](https://zenserp.com) to get an API key and replace the placeholder in the code with your key.
 
-4. **Ngrok Token (Optional)**: If you want to run the Gradio app publicly, sign up at [Ngrok](https://ngrok.com/) and set up your auth token using:
+3. **Ngrok Token (Optional)**: If you want to run the Gradio app publicly, sign up at [Ngrok](https://ngrok.com/) and set up your auth token using:
     ```bash
     ngrok config add-authtoken YOUR_AUTH_TOKEN
     ```
 
-5. **Run the Application**:
+4. **Run the Application**:
     ```bash
     python app.py
     ```
